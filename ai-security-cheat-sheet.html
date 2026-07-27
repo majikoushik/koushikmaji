@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Security Cheat Sheet | LLM Security Guide</title>
+  <meta name="description"
+    content="Secure LLM applications, RAG systems and AI agents with practical controls for prompt injection, data leakage and tool abuse.">
+  <meta name="keywords" content="AI Security, LLM Security, Prompt Injection, RAG Security, Agent Security">
+  <link rel="canonical" href="https://koushikmaji.com/ai-security-cheat-sheet.html">
+  <meta property="og:title" content="AI Security Cheat Sheet | LLM Security Guide">
+  <meta property="og:description"
+    content="Secure LLM applications, RAG systems and AI agents with practical controls for prompt injection, data leakage and tool abuse.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://koushikmaji.com/ai-security-cheat-sheet.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script
+    type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "AI Security Cheat Sheet | LLM Security Guide", "description": "Secure LLM applications, RAG systems and AI agents with practical controls for prompt injection, data leakage and tool abuse.", "author": {"@type": "Person", "name": "Koushik Maji"}, "publisher": {"@type": "Organization", "name": "TechWithKoushik"}, "url": "https://koushikmaji.com/ai-security-cheat-sheet.html", "dateModified": "2026-07-27"}</script>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container nav"><a class="brand" href="/">TechWith<span>Koushik</span></a>
+      <nav class="navlinks">
+        <a href="ai-cloud-engineer-guide.html">AI Cloud</a>
+        <a href="ai-security-cheat-sheet.html">AI Security</a>
+        <a href="ai-cost-optimization-guide.html">AI Cost</a>
+        <a href="mcp-agentic-ai-guide.html">MCP</a>
+        <a href="ai-certifications-roadmap.html">AI Certifications</a>
+        <a href="cloud-certification-exam-guides.html">Cloud Exam Guides</a>
+        <a href="youtube-resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container article">
+    <section class="hero">
+      <div class="crumb"><a href="/">Home</a> / AI Security Cheat Sheet</div><span class="badge">LLM Security</span>
+      <h1>AI Security Cheat Sheet for Engineers</h1>
+      <p class="lead">A practical guide to securing LLM apps, RAG systems, agents and AI-powered cloud workflows.</p>
+      <div class="btns"><a class="btn primary" href="/downloads/AI-Security-Study-Guide.pdf">Download Security PDF</a><a
+          class="btn secondary" href="https://youtube.com/@TechWithKoushikOfficial">Watch Security Videos</a></div>
+    </section>
+    <div class="toc"><strong>On this page</strong><a href="#threats">Threat model</a><a href="#prompt">Prompt
+        injection</a><a href="#rag">RAG security</a><a href="#agents">Agent tool abuse</a><a href="#controls">Controls
+        checklist</a></div>
+    <section id="threats">
+      <h2>AI security threat model</h2>
+      <p>Traditional application security is still required, but AI systems add new attack paths. The model can be
+        manipulated by malicious prompts, poisoned retrieval content, unsafe tool calls, weak authorization and
+        accidental data exposure. Security teams must protect the model, the data, the tools and the user workflow.</p>
+    </section>
+    <section id="prompt">
+      <h2>Prompt injection and indirect prompt injection</h2>
+      <p>Prompt injection happens when a user or external content attempts to override the intended system behavior.
+        Indirect prompt injection is especially dangerous because the malicious instruction may come from a webpage,
+        document, email or ticket that the AI system reads during a workflow.</p>
+      <div class="callout"><strong>Defense pattern:</strong> Treat all user input and retrieved content as untrusted.
+        Keep system instructions separate, limit tool permissions, validate actions and show the user what the agent is
+        about to do before execution.</div>
+    </section>
+    <section id="rag">
+      <h2>RAG security risks</h2>
+      <p>Retrieval augmented generation improves domain accuracy, but it can leak sensitive information if document
+        permissions are ignored. It can also produce bad answers if the knowledge base contains stale, poisoned or
+        low-quality content.</p>
+      <ul>
+        <li>Enforce document-level access control before retrieval.</li>
+        <li>Use metadata filters for department, role and sensitivity.</li>
+        <li>Log source documents used in each answer.</li>
+        <li>Clean and review indexed content regularly.</li>
+        <li>Use citations so users can verify the answer.</li>
+      </ul>
+    </section>
+    <section id="agents">
+      <h2>Agent tool abuse</h2>
+      <p>Agentic systems can call APIs, create tickets, run scripts and modify resources. That creates a major security
+        boundary. A chatbot that only answers questions has limited blast radius. An agent that can deploy
+        infrastructure or send emails needs strict policy controls.</p>
+      <div class="grid two">
+        <div class="card">
+          <h3>Risky permissions</h3>
+          <p>Broad cloud admin access, unrestricted shell execution, open email sending and direct database writes
+            increase impact.</p>
+        </div>
+        <div class="card">
+          <h3>Safer design</h3>
+          <p>Use least privilege tools, approval gates, dry-run mode, audit logs, rate limits and rollback plans.</p>
+        </div>
+      </div>
+    </section>
+    <section id="controls">
+      <h2>AI security controls checklist</h2>
+      <ul class="checklist">
+        <li>Use separate system prompts, developer instructions and user content.</li>
+        <li>Classify and redact sensitive data before sending content to models.</li>
+        <li>Apply least privilege to tools and APIs.</li>
+        <li>Require confirmation for external actions and production changes.</li>
+        <li>Evaluate model responses using adversarial test cases.</li>
+        <li>Monitor for data exfiltration, abnormal tool calls and repeated policy violations.</li>
+        <li>Maintain an incident response runbook specifically for AI failures.</li>
+      </ul>
+    </section>
+    <div class="download">
+      <h2>Download the AI Security Cheat Sheet</h2>
+      <p>Use this as a quick reference for LLM app reviews, architecture discussions and technical video learning.</p><a
+        class="btn primary" href="/downloads/AI-Security-Study-Guide.pdf">Download Free PDF</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container"><strong>TechWithKoushik</strong>
+      <p>Practical AI, cloud, certification and engineering resources by Koushik Maji.</p>
+      <p><a href="https://youtube.com/@TechWithKoushikOfficial">YouTube</a> · <a href="/sitemap.xml">Sitemap</a> · <a
+          href="/robots.txt">Robots</a></p>
+      <p>© <span id="year"></span> koushikmaji.com</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

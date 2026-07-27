@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MCP and Agentic AI Guide | TechWithKoushik</title>
+  <meta name="description"
+    content="Understand Model Context Protocol, agentic AI design patterns, tool calling, enterprise integration and security practices.">
+  <meta name="keywords" content="MCP, Model Context Protocol, Agentic AI, AI Agents, Tool Calling">
+  <link rel="canonical" href="https://koushikmaji.com/mcp-agentic-ai-guide.html">
+  <meta property="og:title" content="MCP and Agentic AI Guide | TechWithKoushik">
+  <meta property="og:description"
+    content="Understand Model Context Protocol, agentic AI design patterns, tool calling, enterprise integration and security practices.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://koushikmaji.com/mcp-agentic-ai-guide.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script
+    type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "MCP and Agentic AI Guide | TechWithKoushik", "description": "Understand Model Context Protocol, agentic AI design patterns, tool calling, enterprise integration and security practices.", "author": {"@type": "Person", "name": "Koushik Maji"}, "publisher": {"@type": "Organization", "name": "TechWithKoushik"}, "url": "https://koushikmaji.com/mcp-agentic-ai-guide.html", "dateModified": "2026-07-27"}</script>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container nav"><a class="brand" href="/">TechWith<span>Koushik</span></a>
+      <nav class="navlinks">
+        <a href="ai-cloud-engineer-guide.html">AI Cloud</a>
+        <a href="ai-security-cheat-sheet.html">AI Security</a>
+        <a href="ai-cost-optimization-guide.html">AI Cost</a>
+        <a href="mcp-agentic-ai-guide.html">MCP</a>
+        <a href="ai-certifications-roadmap.html">AI Certifications</a>
+        <a href="cloud-certification-exam-guides.html">Cloud Exam Guides</a>
+        <a href="youtube-resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container article">
+    <section class="hero">
+      <div class="crumb"><a href="/">Home</a> / MCP and Agentic AI</div><span class="badge">Agentic AI
+        Architecture</span>
+      <h1>Model Context Protocol and Agentic AI Guide</h1>
+      <p class="lead">Understand how MCP, tools, agents and enterprise systems fit together in modern AI applications.
+      </p>
+      <div class="btns"><a class="btn primary" href="/downloads/GH-600_Study_Guide.pdf">Download MCP PDF</a><a
+          class="btn secondary" href="https://youtube.com/@TechWithKoushikOfficial">Watch MCP Videos</a></div>
+    </section>
+    <div class="toc"><strong>On this page</strong><a href="#mcp">What MCP solves</a><a href="#agent">Agentic AI
+        basics</a><a href="#patterns">Design patterns</a><a href="#security">Security concerns</a><a href="#build">Build
+        checklist</a></div>
+    <section id="mcp">
+      <h2>What MCP solves</h2>
+      <p>AI applications need context from files, tools, databases, APIs, SaaS apps and enterprise systems. Without a
+        standard integration layer, every model-client-tool connection becomes custom work. Model Context Protocol is
+        important because it encourages a cleaner way to connect AI clients with external capabilities.</p>
+      <p>For learners, the simple idea is this: MCP helps AI systems access approved tools and context through a
+        structured protocol instead of random one-off integrations.</p>
+    </section>
+    <section id="agent">
+      <h2>Agentic AI basics</h2>
+      <p>An agent is an AI system that can reason about a goal, choose steps, call tools and observe results. A simple
+        chatbot gives an answer. An agent can plan, search, retrieve, call APIs, create files or update workflows. This
+        is why agentic AI is powerful but also risky.</p>
+    </section>
+    <section id="patterns">
+      <h2>Useful design patterns</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Planner-executor</h3>
+          <p>The planner creates a step-by-step approach. The executor performs approved steps and returns observations.
+            This improves clarity and debugging.</p>
+        </div>
+        <div class="card">
+          <h3>Human-in-the-loop</h3>
+          <p>The agent prepares a recommendation or draft action, but a human approves sensitive operations before
+            execution.</p>
+        </div>
+        <div class="card">
+          <h3>Tool router</h3>
+          <p>The system chooses the right tool based on the user intent, permissions and safety policy.</p>
+        </div>
+        <div class="card">
+          <h3>RAG plus tools</h3>
+          <p>Retrieval provides knowledge. Tools perform actions. Keeping these separate makes the system easier to
+            secure.</p>
+        </div>
+      </div>
+    </section>
+    <section id="security">
+      <h2>Security concerns</h2>
+      <p>Agentic AI security is mostly about controlling authority. If the agent can read private data, write to systems
+        or take external actions, each capability must be authenticated, authorized, logged and constrained.</p>
+      <ul>
+        <li>Validate user identity and permissions before tool calls.</li>
+        <li>Do not let retrieved content instruct the agent to ignore policy.</li>
+        <li>Use allowlists for tools and destinations.</li>
+        <li>Prefer scoped tokens over broad credentials.</li>
+        <li>Log tool input, tool output and final user-visible response.</li>
+      </ul>
+    </section>
+    <section id="build">
+      <h2>Build checklist</h2>
+      <ol>
+        <li>Define the agent's job in one sentence.</li>
+        <li>List approved tools and their permission boundaries.</li>
+        <li>Create evaluation scenarios for success, failure and abuse.</li>
+        <li>Add human approval for expensive, destructive or external actions.</li>
+        <li>Monitor cost, latency, accuracy and safety events.</li>
+      </ol>
+    </section>
+    <div class="download">
+      <h2>Download the MCP and Agentic AI guide</h2>
+      <p>Use this guide to understand modern AI integration patterns and explain them clearly in interviews or technical
+        discussions.</p><a class="btn primary" href="/downloads/GH-600_Study_Guide.pdf">Download Free PDF</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container"><strong>TechWithKoushik</strong>
+      <p>Practical AI, cloud, certification and engineering resources by Koushik Maji.</p>
+      <p><a href="https://youtube.com/@TechWithKoushikOfficial">YouTube</a> · <a href="/sitemap.xml">Sitemap</a> · <a
+          href="/robots.txt">Robots</a></p>
+      <p>© <span id="year"></span> koushikmaji.com</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
