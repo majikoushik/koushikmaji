@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /downloads/
 
 Sitemap: https://koushikmaji.com/sitemap.xml
