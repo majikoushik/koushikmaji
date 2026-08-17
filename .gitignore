@@ -1,6 +1,122 @@
-# wrangler files
-.wrangler
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# Web development
+# =========================
+
+# Node / package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package-manager caches
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Frontend build output
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.parcel-cache/
+.cache-loader/
+out/
+coverage/
+
+# Temporary web build files
+public/build/
+.tmp/
+temp/
+tmp/
+
+# Local development files
+*.local
+
+# =========================
+# Cloudflare / Wrangler
+# =========================
+.wrangler/
 .dev.vars*
 !.dev.vars.example
-.env*
-!.env.example
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Operating system
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Miscellaneous
+# =========================
+*.bak
+*.tmp
+*.temp

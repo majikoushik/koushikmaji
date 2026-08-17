@@ -1,0 +1,229 @@
+{
+  "site": {
+    "base_url": "https://koushikmaji.com",
+    "site_name": "TechWithKoushik",
+    "static_urls": [
+      {
+        "path": "/",
+        "lastmod": "2026-08-08"
+      },
+      {
+        "path": "/ai-cloud-engineer-guide.html",
+        "lastmod": "2026-08-08"
+      },
+      {
+        "path": "/ai-security-cheat-sheet.html",
+        "lastmod": "2026-08-08"
+      },
+      {
+        "path": "/mcp-agentic-ai-guide.html",
+        "lastmod": "2026-08-08"
+      },
+      {
+        "path": "/ai-certifications-roadmap.html",
+        "lastmod": "2026-08-08"
+      },
+      {
+        "path": "/ai-cost-optimization-guide.html",
+        "lastmod": "2026-08-08"
+      },
+      {
+        "path": "/cloud-certification-exam-guides.html",
+        "lastmod": "2026-08-08"
+      },
+      {
+        "path": "/youtube-resources.html",
+        "lastmod": "2026-08-08"
+      }
+    ]
+  },
+  "series": [
+    {
+      "enabled": true,
+      "slug": "aif-c01",
+      "exam_code": "AIF-C01",
+      "exam_name": "AWS Certified AI Practitioner",
+      "provider": "AWS",
+      "video_file": "video_data/aif-c01/video.txt",
+      "page_title": "AWS AIF-C01 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice AWS Certified AI Practitioner (AIF-C01) questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "AIF-C01 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AWS AIF-C01 questions {start}–{end}. This independently created set contains {count} questions for AWS Certified AI Practitioner exam preparation.",
+      "topics": [
+        "AI and ML fundamentals",
+        "Generative AI",
+        "Foundation models",
+        "Amazon Bedrock",
+        "RAG and embeddings",
+        "Responsible AI",
+        "AI security and governance"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "clf-c02",
+      "exam_code": "CLF-C02",
+      "exam_name": "AWS Certified Cloud Practitioner",
+      "provider": "AWS",
+      "video_file": "video_data/clf-c02/video.txt",
+      "page_title": "AWS CLF-C02 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice AWS Certified Cloud Practitioner (CLF-C02) questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "CLF-C02 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AWS CLF-C02 questions {start}–{end}. This independently created set contains {count} questions for AWS Certified Cloud Practitioner exam preparation.",
+      "topics": [
+        "Cloud concepts",
+        "Core AWS services",
+        "Security and compliance",
+        "Shared Responsibility Model",
+        "Billing and pricing",
+        "Cloud technology and services"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "dva-c02",
+      "exam_code": "DVA-C02",
+      "exam_name": "AWS Certified Developer – Associate",
+      "provider": "AWS",
+      "video_file": "video_data/dva-c02/video.txt",
+      "page_title": "AWS DVA-C02 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice AWS Certified Developer – Associate (DVA-C02) questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "DVA-C02 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AWS DVA-C02 questions {start}–{end}. This independently created set contains {count} questions for AWS Developer Associate exam preparation.",
+      "topics": [
+        "AWS application development",
+        "Serverless applications",
+        "APIs",
+        "Event-driven systems",
+        "Application security",
+        "Deployment",
+        "Observability and troubleshooting"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "saa-c03",
+      "exam_code": "SAA-C03",
+      "exam_name": "AWS Certified Solutions Architect – Associate",
+      "provider": "AWS",
+      "video_file": "video_data/saa-c03/video.txt",
+      "page_title": "AWS SAA-C03 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice AWS Certified Solutions Architect – Associate (SAA-C03) questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "SAA-C03 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AWS SAA-C03 questions {start}–{end}. This independently created set contains {count} questions for AWS Solutions Architect Associate exam preparation.",
+      "topics": [
+        "Secure architectures",
+        "Resilient architectures",
+        "High-performing architectures",
+        "Cost optimization",
+        "Compute",
+        "Storage",
+        "Networking and databases"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "az-104",
+      "exam_code": "AZ-104",
+      "exam_name": "Microsoft Azure Administrator",
+      "provider": "Microsoft Azure",
+      "video_file": "video_data/az-104/video.txt",
+      "page_title": "AZ-104 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice Microsoft Azure Administrator (AZ-104) questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "AZ-104 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AZ-104 questions {start}–{end}. This independently created set contains {count} questions for Microsoft Azure Administrator exam preparation.",
+      "topics": [
+        "Identity and governance",
+        "Storage",
+        "Compute",
+        "Virtual networking",
+        "Monitoring and backup",
+        "Azure administration"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "az-305",
+      "exam_code": "AZ-305",
+      "exam_name": "Designing Microsoft Azure Infrastructure Solutions",
+      "provider": "Microsoft Azure",
+      "video_file": "video_data/az-305/video.txt",
+      "page_title": "AZ-305 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice AZ-305 exam questions and answers across standalone TechWithKoushik video sets for Microsoft Azure infrastructure-solution preparation.",
+      "video_title_template": "AZ-305 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AZ-305 questions {start}–{end}. This independently created set contains {count} questions for Microsoft Azure infrastructure solutions.",
+      "topics": [
+        "Identity and governance",
+        "Data storage",
+        "Business continuity",
+        "Infrastructure solutions",
+        "Compute",
+        "Networking",
+        "Application architecture"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "az-400",
+      "exam_code": "AZ-400",
+      "exam_name": "Designing and Implementing Microsoft DevOps Solutions",
+      "provider": "Microsoft Azure",
+      "video_file": "video_data/az-400/video.txt",
+      "page_title": "AZ-400 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice AZ-400 Designing and Implementing Microsoft DevOps Solutions questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "AZ-400 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AZ-400 questions {start}–{end}. This independently created set contains {count} questions for Microsoft DevOps Solutions exam preparation.",
+      "topics": [
+        "Source control",
+        "Build and release pipelines",
+        "Security and compliance",
+        "Instrumentation",
+        "Continuous integration",
+        "Continuous delivery",
+        "DevOps processes"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "az-900",
+      "exam_code": "AZ-900",
+      "exam_name": "Microsoft Azure Fundamentals",
+      "provider": "Microsoft Azure",
+      "video_file": "video_data/az-900/video.txt",
+      "page_title": "AZ-900 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice Microsoft Azure Fundamentals (AZ-900) questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "AZ-900 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice AZ-900 questions {start}–{end}. This independently created set contains {count} questions for Microsoft Azure Fundamentals exam preparation.",
+      "topics": [
+        "Cloud concepts",
+        "Azure architecture and services",
+        "Management and governance",
+        "Security",
+        "Pricing and support",
+        "Azure fundamentals"
+      ]
+    },
+    {
+      "enabled": true,
+      "slug": "sc-100",
+      "exam_code": "SC-100",
+      "exam_name": "Microsoft Cybersecurity Architect",
+      "provider": "Microsoft Security",
+      "video_file": "video_data/sc-100/video.txt",
+      "page_title": "SC-100 Practice Questions & Answers 2026 | TechWithKoushik",
+      "page_description": "Practice Microsoft Cybersecurity Architect (SC-100) questions and answers across standalone TechWithKoushik video sets.",
+      "video_title_template": "SC-100 Exam Questions & Answers 2026 — Set {set_no:02d}",
+      "video_description_template": "Practice SC-100 questions {start}–{end}. This independently created set contains {count} questions for Microsoft Cybersecurity Architect exam preparation.",
+      "topics": [
+        "Zero Trust",
+        "Security strategy",
+        "Identity and access",
+        "Security operations",
+        "Infrastructure security",
+        "Applications and data",
+        "Governance and risk"
+      ]
+    }
+  ],
+  "general_video_file": "general-video.xml"
+}

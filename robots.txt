@@ -3,3 +3,4 @@ Allow: /
 Disallow: /downloads/
 
 Sitemap: https://koushikmaji.com/sitemap.xml
+Sitemap: https://koushikmaji.com/video-sitemap.xml

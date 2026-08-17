@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<general-videos version="1.0">
+  <section slug="ai-machine-learning" title="AI &amp; Machine Learning Videos">
+    <video>
+      <title>Vector Database Explained : How Tokens, Embeddings, Semantic Search, Cosine Similarity &amp; RAG Work</title>
+      <url>https://www.youtube.com/watch?v=T_NO4kXo77c</url>
+      <description>Learn how vector databases power modern AI applications by connecting tokens, embeddings, vector spaces, cosine similarity, semantic search, and Retrieval-Augmented Generation (RAG) in one practical explanation.</description>
+    </video>
+    <video>
+      <title>Why Your AI Is a Confident Liar : 1 in 12 AI Responses Is a Lie— Stop AI Hallucinations with RAG</title>
+      <url>https://www.youtube.com/watch?v=gC3fYsvbve4</url>
+      <description>Understand why generative AI can produce confident but incorrect answers and how Retrieval-Augmented Generation (RAG), grounding, source retrieval, and verification can reduce AI hallucinations.</description>
+    </video>
+    <video>
+      <title>MCP Explained: Why Every AI Company Just Adopted This : The Protocol Made Your AI 10x More Powerful</title>
+      <url>https://www.youtube.com/watch?v=u4QI8pUGFLA</url>
+      <description>Learn what the Model Context Protocol (MCP) is, why major AI platforms are adopting it, and how MCP enables AI assistants and agents to connect with tools, data sources, and external systems.</description>
+    </video>
+    <video>
+      <title>When NOT to Use AI : Why Your Instincts About AI Are Wrong : 3 Warning Signs You Should Never Ignore</title>
+      <url>https://www.youtube.com/watch?v=ac48MCuLloQ</url>
+      <description>Learn when AI is the wrong tool for a problem, including situations involving unreliable outputs, poor data or context, high-risk decisions, and tasks where conventional software or human judgment is more appropriate.</description>
+    </video>
+    <video>
+      <title>Why Your RAG Fails at Retrieval (Not the LLM) : Hybrid Search, Reranking &amp; Agentic RAG Fixes (2026)</title>
+      <url>https://www.youtube.com/watch?v=DI9zWJV-oVQ</url>
+      <description>Understand why many RAG systems fail during retrieval rather than generation, and learn how hybrid search, reranking, retrieval quality, and agentic RAG can improve production AI systems.</description>
+    </video>
+    <video>
+      <title>The Terrifying Security Blindspot of AI Agents MCP Explained : The Developer's Survival Guide (2026)</title>
+      <url>https://www.youtube.com/watch?v=yodqLe7Ggg4</url>
+      <description>Explore the security risks created by AI agents and MCP-connected tools, including excessive permissions, untrusted tool inputs, data exposure, prompt-based attacks, and practical controls for safer agentic AI systems.</description>
+    </video>
+    <video>
+      <title>The Ghost in the AI: The Terrifying New Way Companies Get Hacked : Prompt Injection : AI Security</title>
+      <url>https://www.youtube.com/watch?v=BwRv8XY8HPs</url>
+      <description>Understand prompt injection attacks against AI systems, how malicious instructions can manipulate LLMs and connected tools, and why prompt injection is a major security concern for RAG and agentic AI applications.</description>
+    </video>
+    <video>
+      <title>You're Closer to AI Engineer Than You Think. Software Engineer to AI Engineer in 2026 (Full Roadmap)</title>
+      <url>https://www.youtube.com/watch?v=1Vz-J_Adq_0</url>
+      <description>A practical 2026 roadmap for software engineers moving into AI engineering, covering foundational AI concepts, LLM applications, RAG, agents, cloud skills, projects, and the capabilities employers increasingly expect.</description>
+    </video>
+    <video>
+      <title>The AI Cost Paradox: Why Tokens Got 280x Cheaper But Your Bill Tripled : Cut Your AI Bill 80%</title>
+      <url>https://www.youtube.com/watch?v=SylKYgAP4CA</url>
+      <description>Understand the AI cost paradox: model token prices may fall while total application spending rises. Learn the major cost drivers in LLM systems and practical approaches to reduce inference, retrieval, and infrastructure costs.</description>
+    </video>
+    <video>
+      <title>The Death of the Smartphone: The AI Hardware Era (2026)</title>
+      <url>https://www.youtube.com/watch?v=diFZCkNW9gM</url>
+      <description>Explore the emerging AI hardware era and how AI-native devices, wearables, ambient assistants, and new interaction models could change the role of smartphones in the years ahead.</description>
+    </video>
+    <video>
+      <title>AI Is Replacing Cloud Tasks, Not Cloud Engineers : Future of Cloud Engineering (2026)</title>
+      <url>https://www.youtube.com/watch?v=5NKzL597bNM</url>
+      <description>Learn how AI is automating individual cloud tasks without eliminating the need for cloud engineers, and understand which architecture, security, automation, FinOps, and AI-infrastructure skills matter for the future of cloud engineering.</description>
+    </video>
+    <video>
+      <title>Top AI Certifications for AI Engineer Jobs in 2026 – Which One Actually Gets You Hired?</title>
+      <url>https://www.youtube.com/watch?v=-Poiokq9Ewk</url>
+      <description>Compare leading AI certifications for 2026 and understand how certification choices relate to AI engineering roles, cloud AI skills, practical projects, and employability rather than relying on credentials alone.</description>
+    </video>
+    <video>
+      <title>AI Agent Engineer Roadmap 2026 | AI Agents + MCP Explained (Skills, Projects &amp; Certifications)</title>
+      <url>https://www.youtube.com/watch?v=mjgXAzmffF0</url>
+      <description>A practical AI Agent Engineer roadmap for 2026 covering AI agents, MCP, tool use, orchestration, RAG, security, projects, cloud platforms, and certifications for building production agentic AI systems.</description>
+    </video>
+  </section>
+  <section slug="exam-study-guides" title="Certification Study Guide Videos">
+    <video>
+      <title>SC-100 Microsoft Cybersecurity Architect Latest Study Guide 2026 : Full Exam Preparation + Free PDF</title>
+      <url>https://www.youtube.com/watch?v=ShEWKxKvl94</url>
+      <description>Prepare for the Microsoft Cybersecurity Architect SC-100 exam with a structured 2026 study guide covering the exam scope, cybersecurity architecture concepts, preparation priorities, and a companion free PDF resource.</description>
+    </video>
+    <video>
+      <title>SC-500 Microsoft Cloud &amp; AI Security Engineer Full Study Guide 2026 : AZ-500 Replacement + Free PDF</title>
+      <url>https://www.youtube.com/watch?v=U1PO4LzPNfE</url>
+      <description>Prepare for the Microsoft SC-500 Cloud and AI Security Engineer exam with a structured 2026 study guide covering the certification scope, security domains, transition from AZ-500, preparation strategy, and a companion free PDF.</description>
+    </video>
+    <video>
+      <title>AI-200 Exam Study Guide 2026 : Azure AI Cloud Developer Associate : AZ-204 Transition Plan</title>
+      <url>https://www.youtube.com/watch?v=GUrpAIbFk48</url>
+      <description>Prepare for the Microsoft AI-200 Azure AI Cloud Developer Associate exam with a 2026 study guide covering the certification direction, key Azure AI development skills, exam preparation priorities, and transition planning from AZ-204.</description>
+    </video>
+    <video>
+      <title>GH-600 Exam Study Guide 2026 : GitHub Certified: Agentic AI Developer Full Prep</title>
+      <url>https://www.youtube.com/watch?v=RpmaLICHBf8</url>
+      <description>Prepare for the GitHub Certified Agentic AI Developer GH-600 exam with a structured 2026 study guide covering agentic AI development concepts, GitHub-focused skills, exam preparation priorities, and a companion free PDF.</description>
+    </video>
+    <video>
+      <title>Claude Certified Architect Foundations Exam (CCAR-F) – Full Study Guide 2026 : 8 Meta Rules to Pass</title>
+      <url>https://www.youtube.com/watch?v=dtmEJz6nHM0</url>
+      <description>Prepare for the Claude Certified Architect Foundations (CCAR-F) exam with a structured 2026 study guide covering core architecture concepts, preparation strategy, and eight high-level rules for approaching the certification exam.</description>
+    </video>
+  </section>
+</general-videos>
