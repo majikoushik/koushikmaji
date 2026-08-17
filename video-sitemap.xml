@@ -1048,134 +1048,211 @@
     <loc>https://koushikmaji.com/videos/ai-machine-learning/vector-database-explained.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/T_NO4kXo77c/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Vector Database Explained : How Tokens, Embeddings, Semantic Search, Cosine Similarity &amp; RAG Work</video:title>
-      <video:description>Learn how vector databases power modern AI applications by connecting tokens, embeddings, vector spaces, cosine similarity, semantic search, and Retrieval-Augmented Generation (RAG) in one practical explanation.</video:description>
+      <video:title>Vector Database Explained : How Tokens, Embeddings, Semantic Search, Cosine Similarity
+        &amp; RAG Work</video:title>
+      <video:description>Vector databases turn words into meaning AI can measure and compare. The
+        hidden infrastructure behind RAG, semantic search, and recommendations.Learn how vector
+        databases power modern AI applications by connecting tokens,
+        embeddings, vector spaces, cosine similarity, semantic search, and Retrieval-Augmented
+        Generation (RAG) in one practical explanation.</video:description>
       <video:player_loc>https://www.youtube.com/embed/T_NO4kXo77c</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/why-your-ai-is-a-confident-liar.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/rag-explained-2026-retrieval-augmented-generation-ai-hallucinations-semantic.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/gC3fYsvbve4/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Why Your AI Is a Confident Liar : 1 in 12 AI Responses Is a Lie— Stop AI Hallucinations with RAG</video:title>
-      <video:description>Understand why generative AI can produce confident but incorrect answers and how Retrieval-Augmented Generation (RAG), grounding, source retrieval, and verification can reduce AI hallucinations.</video:description>
+      <video:title>RAG Explained 2026 | Retrieval-Augmented Generation, AI Hallucinations, Semantic Search
+        &amp; Vector DB</video:title>
+      <video:description>Why does AI hallucinate? Learn how RAG uses retrieval, semantic search and vector
+        databases to ground LLM answers in current, verifiable information.
+        Understand why generative AI can produce confident but incorrect answers and how
+        Retrieval-Augmented Generation (RAG), grounding, source retrieval, and verification can
+        reduce AI hallucinations.</video:description>
       <video:player_loc>https://www.youtube.com/embed/gC3fYsvbve4</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/mcp-explained.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/mcp-explained-2026-model-context-protocol-ai-agents-claude-chatgpt-tool-use-and.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/u4QI8pUGFLA/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>MCP Explained: Why Every AI Company Just Adopted This : The Protocol Made Your AI 10x More Powerful</video:title>
-      <video:description>Learn what the Model Context Protocol (MCP) is, why major AI platforms are adopting it, and how MCP enables AI assistants and agents to connect with tools, data sources, and external systems.</video:description>
+      <video:title>MCP Explained 2026 | Model Context Protocol, AI Agents, Claude, ChatGPT, Tool Use &amp;
+        AI
+        Integration</video:title>
+      <video:description>MCP explained for 2026: learn Model Context Protocol, AI agents, Claude, ChatGPT,
+        tool integration, MCP servers, clients and real-world AI automation.Learn what the Model
+        Context Protocol (MCP) is, why major AI platforms are
+        adopting it, and how MCP enables AI assistants and agents to connect with tools, data
+        sources, and external systems.</video:description>
       <video:player_loc>https://www.youtube.com/embed/u4QI8pUGFLA</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/when-not-to-use-ai.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/when-not-to-use-ai-in-2026-ai-risks-limitations-responsible-ai-and-human-decision.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ac48MCuLloQ/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>When NOT to Use AI : Why Your Instincts About AI Are Wrong : 3 Warning Signs You Should Never Ignore</video:title>
-      <video:description>Learn when AI is the wrong tool for a problem, including situations involving unreliable outputs, poor data or context, high-risk decisions, and tasks where conventional software or human judgment is more appropriate.</video:description>
+      <video:title>When NOT to Use AI in 2026 | AI Risks, Limitations, Responsible AI &amp; Human Decision
+        Framework</video:title>
+      <video:description>When should you NOT use AI? Learn AI limitations, risks, accountability,
+        verification, cognitive offloading and a 3-question decision framework for 2026.Learn when
+        AI is the wrong tool for a problem, including situations involving
+        unreliable outputs, poor data or context, high-risk decisions, and tasks where conventional
+        software or human judgment is more appropriate.</video:description>
       <video:player_loc>https://www.youtube.com/embed/ac48MCuLloQ</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/why-your-rag-fails-at-retrieval-not-the-llm.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/why-your-rag-fails-in-2026-hybrid-search-reranking-agentic-rag-ragas-and-context.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/DI9zWJV-oVQ/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Why Your RAG Fails at Retrieval (Not the LLM) : Hybrid Search, Reranking &amp; Agentic RAG Fixes (2026)</video:title>
-      <video:description>Understand why many RAG systems fail during retrieval rather than generation, and learn how hybrid search, reranking, retrieval quality, and agentic RAG can improve production AI systems.</video:description>
+      <video:title>Why Your RAG Fails in 2026 | Hybrid Search, Reranking, Agentic RAG, RAGAS &amp; Context
+        Engineering</video:title>
+      <video:description>Why does RAG fail in production? Learn hybrid search, reranking, agentic RAG,
+        RAGAS, chunking and context engineering to fix retrieval and hallucinations.
+        Understand why many RAG systems fail during retrieval rather than generation, and
+        learn how hybrid search, reranking, retrieval quality, and agentic RAG can improve
+        production AI systems.</video:description>
       <video:player_loc>https://www.youtube.com/embed/DI9zWJV-oVQ</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/the-terrifying-security-blindspot-of-ai-agents-mcp-explained.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/ai-agent-security-2026-claude-code-security-mcp-cursor-copilot-zero-trust-ai-and.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/yodqLe7Ggg4/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>The Terrifying Security Blindspot of AI Agents MCP Explained : The Developer's Survival Guide (2026)</video:title>
-      <video:description>Explore the security risks created by AI agents and MCP-connected tools, including excessive permissions, untrusted tool inputs, data exposure, prompt-based attacks, and practical controls for safer agentic AI systems.</video:description>
+      <video:title>AI Agent Security 2026 | Claude Code Security, MCP, Cursor, Copilot, Zero Trust AI
+        &amp;
+        Secure Coding</video:title>
+      <video:description>Explore the security risks created by AI agents and MCP-connected tools,
+        including excessive permissions, untrusted tool inputs, data exposure, prompt-based attacks,
+        and practical controls for safer agentic AI systems.</video:description>
       <video:player_loc>https://www.youtube.com/embed/yodqLe7Ggg4</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/the-ghost-in-the-ai.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/prompt-injection-explained-2026-ai-security-ai-agents-mcp-copilot-echoleak-and.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/BwRv8XY8HPs/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>The Ghost in the AI: The Terrifying New Way Companies Get Hacked : Prompt Injection : AI Security</video:title>
-      <video:description>Understand prompt injection attacks against AI systems, how malicious instructions can manipulate LLMs and connected tools, and why prompt injection is a major security concern for RAG and agentic AI applications.</video:description>
+      <video:title>Prompt Injection Explained 2026 | AI Security, AI Agents, MCP, Copilot, EchoLeak &amp;
+        LLM
+        Cybersecurity</video:title>
+      <video:description>Prompt injection and AI security in 2026: learn how AI agents, MCP, Copilot and
+        LLMs get hijacked, including EchoLeak, real attacks, AI risks and defenses.
+        Understand prompt injection attacks against AI systems, how malicious
+        instructions can manipulate LLMs and connected tools, and why prompt injection is a major
+        security concern for RAG and agentic AI applications.</video:description>
       <video:player_loc>https://www.youtube.com/embed/BwRv8XY8HPs</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/you-re-closer-to-ai-engineer-than-you-think-software-engineer-to-ai-engineer-in.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/software-engineer-to-ai-engineer-in-2026-90-day-roadmap-llms-rag-and-ai-agents.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1Vz-J_Adq_0/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You're Closer to AI Engineer Than You Think. Software Engineer to AI Engineer in 2026 (Full Roadmap)</video:title>
-      <video:description>A practical 2026 roadmap for software engineers moving into AI engineering, covering foundational AI concepts, LLM applications, RAG, agents, cloud skills, projects, and the capabilities employers increasingly expect.</video:description>
+      <video:title>Software Engineer to AI Engineer in 2026 | 90-Day Roadmap, LLMs, RAG &amp; AI Agents</video:title>
+      <video:description>Software Engineer to AI Engineer in 2026: learn the exact roadmap, LLMs, RAG, AI
+        agents, portfolio skills, and 90-day plan to make the career switch.A practical 2026 roadmap
+        for software engineers moving into AI engineering, covering foundational AI concepts, LLM
+        applications, RAG, agents, cloud skills, projects, and the capabilities employers
+        increasingly expect.</video:description>
       <video:player_loc>https://www.youtube.com/embed/1Vz-J_Adq_0</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/the-ai-cost-paradox.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/ai-cost-optimization-2026-cut-llm-and-ai-agent-costs-50-90-with-finops-tokenops.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/SylKYgAP4CA/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>The AI Cost Paradox: Why Tokens Got 280x Cheaper But Your Bill Tripled : Cut Your AI Bill 80%</video:title>
-      <video:description>Understand the AI cost paradox: model token prices may fall while total application spending rises. Learn the major cost drivers in LLM systems and practical approaches to reduce inference, retrieval, and infrastructure costs.</video:description>
+      <video:title>AI Cost Optimization 2026 | Cut LLM &amp; AI Agent Costs 50–90% with FinOps, TokenOps
+        &amp;
+        Prompt Caching</video:title>
+      <video:description>AI cost optimization for 2026: learn prompt caching, model routing, batching and
+        AI FinOps to cut LLM and AI agent costs by 50–90% without losing quality.Understand the AI
+        cost paradox: model token prices may fall while total
+        application spending rises. Learn the major cost drivers in LLM systems and practical
+        approaches to reduce inference, retrieval, and infrastructure costs.</video:description>
       <video:player_loc>https://www.youtube.com/embed/SylKYgAP4CA</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/the-death-of-the-smartphone.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/will-smart-glasses-replace-smartphones-ai-hardware-wearables-ambient-computing.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/diFZCkNW9gM/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>The Death of the Smartphone: The AI Hardware Era (2026)</video:title>
-      <video:description>Explore the emerging AI hardware era and how AI-native devices, wearables, ambient assistants, and new interaction models could change the role of smartphones in the years ahead.</video:description>
+      <video:title>Will Smart Glasses Replace Smartphones? AI Hardware, Wearables, Ambient Computing &amp;
+        Future Tech 2026</video:title>
+      <video:description>Will smart glasses replace smartphones in 2026? Explore AI hardware, wearables,
+        ambient computing, edge AI and the future of screenless personal tech.
+        Explore the emerging AI hardware era and how AI-native devices, wearables,
+        ambient assistants, and new interaction models could change the role of smartphones in the
+        years ahead.</video:description>
       <video:player_loc>https://www.youtube.com/embed/diFZCkNW9gM</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/ai-is-replacing-cloud-tasks-not-cloud-engineers.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/will-ai-replace-cloud-engineers-future-of-cloud-engineering-2026-ai-agents-mcp.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/5NKzL597bNM/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Is Replacing Cloud Tasks, Not Cloud Engineers : Future of Cloud Engineering (2026)</video:title>
-      <video:description>Learn how AI is automating individual cloud tasks without eliminating the need for cloud engineers, and understand which architecture, security, automation, FinOps, and AI-infrastructure skills matter for the future of cloud engineering.</video:description>
+      <video:title>Will AI Replace Cloud Engineers? Future of Cloud Engineering 2026 | AI Agents, MCP,
+        AIOps &amp; FinOps</video:title>
+      <video:description>Will AI replace cloud engineers in 2026? Learn how AI agents, MCP, AIOps, FinOps,
+        Terraform and autonomous cloud operations are changing cloud careers.
+        Learn how AI is automating individual cloud tasks without eliminating the need
+        for cloud engineers, and understand which architecture, security, automation, FinOps, and
+        AI-infrastructure skills matter for the future of cloud engineering.</video:description>
       <video:player_loc>https://www.youtube.com/embed/5NKzL597bNM</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/top-ai-certifications-for-ai-engineer-jobs-in-2026-which-one-actually-gets-you.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/best-ai-certifications-for-ai-engineer-jobs-2026-aws-azure-google-claude.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-Poiokq9Ewk/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Top AI Certifications for AI Engineer Jobs in 2026 – Which One Actually Gets You Hired?</video:title>
-      <video:description>Compare leading AI certifications for 2026 and understand how certification choices relate to AI engineering roles, cloud AI skills, practical projects, and employability rather than relying on credentials alone.</video:description>
+      <video:title>Best AI Certifications for AI Engineer Jobs 2026 | AWS, Azure, Google, Claude,
+        Databricks &amp; GenAI/ML</video:title>
+      <video:description>Best AI certifications for AI Engineer jobs in 2026: compare AWS, Azure, Google,
+        Claude, Databricks, GenAI, RAG, MLOps and career paths.
+        Compare leading AI certifications for 2026 and understand how certification
+        choices relate to AI engineering roles, cloud AI skills, practical projects, and
+        employability rather than relying on credentials alone.</video:description>
       <video:player_loc>https://www.youtube.com/embed/-Poiokq9Ewk</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/ai-machine-learning/ai-agent-engineer-roadmap-2026-ai-agents-mcp-explained-skills-projects-and.html</loc>
+    <loc>https://koushikmaji.com/videos/ai-machine-learning/ai-agent-engineer-roadmap-2026-ai-agents-mcp-agentic-ai-langgraph-crewai-skills.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/mjgXAzmffF0/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Agent Engineer Roadmap 2026 | AI Agents + MCP Explained (Skills, Projects &amp; Certifications)</video:title>
-      <video:description>A practical AI Agent Engineer roadmap for 2026 covering AI agents, MCP, tool use, orchestration, RAG, security, projects, cloud platforms, and certifications for building production agentic AI systems.</video:description>
+      <video:title>AI Agent Engineer Roadmap 2026 | AI Agents, MCP, Agentic AI, LangGraph, CrewAI, Skills
+        &amp; Projects</video:title>
+      <video:description>AI Agent Engineer roadmap 2026: learn AI Agents, MCP, Agentic AI, LangGraph,
+        CrewAI, RAG, tool calling, projects, certifications and a 90-day plan.
+        A practical AI Agent Engineer roadmap for 2026 covering AI agents, MCP, tool use,
+        orchestration, RAG, security, projects, cloud platforms, and certifications for building
+        production agentic AI systems.</video:description>
       <video:player_loc>https://www.youtube.com/embed/mjgXAzmffF0</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/exam-study-guides/sc-100-microsoft-cybersecurity-architect-latest-study-guide-2026.html</loc>
+    <loc>https://koushikmaji.com/videos/exam-study-guides/sc-100-study-guide-2026-microsoft-cybersecurity-architect-exam-prep-free-pdf-july.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ShEWKxKvl94/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>SC-100 Microsoft Cybersecurity Architect Latest Study Guide 2026 : Full Exam Preparation + Free PDF</video:title>
-      <video:description>Prepare for the Microsoft Cybersecurity Architect SC-100 exam with a structured 2026 study guide covering the exam scope, cybersecurity architecture concepts, preparation priorities, and a companion free PDF resource.</video:description>
+      <video:title>SC-100 Study Guide 2026 | Microsoft Cybersecurity Architect Exam Prep + Free PDF | July
+        2026 Update</video:title>
+      <video:description>SC-100 Microsoft Cybersecurity Architect study guide 2026: latest exam update,
+        scenario-based prep, key comparisons, exam traps and a free PDF cheat sheet.Prepare for the
+        Microsoft Cybersecurity Architect SC-100 exam with a structured
+        2026 study guide covering the exam scope, cybersecurity architecture concepts, preparation
+        priorities, and a companion free PDF resource.</video:description>
       <video:player_loc>https://www.youtube.com/embed/ShEWKxKvl94</video:player_loc>
     </video:video>
   </url>
   <url>
-    <loc>https://koushikmaji.com/videos/exam-study-guides/sc-500-microsoft-cloud-and-ai-security-engineer-full-study-guide-2026.html</loc>
+    <loc>https://koushikmaji.com/videos/exam-study-guides/sc-500-study-guide-2026-cloud-and-ai-security-engineer-az-500-replacement-ai.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/U1PO4LzPNfE/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>SC-500 Microsoft Cloud &amp; AI Security Engineer Full Study Guide 2026 : AZ-500 Replacement + Free PDF</video:title>
-      <video:description>Prepare for the Microsoft SC-500 Cloud and AI Security Engineer exam with a structured 2026 study guide covering the certification scope, security domains, transition from AZ-500, preparation strategy, and a companion free PDF.</video:description>
+      <video:title>SC-500 Study Guide 2026 | Cloud &amp; AI Security Engineer | AZ-500 Replacement, AI
+        Security + Free PDF</video:title>
+      <video:description>Prepare for SC-500 in 2026: Microsoft Cloud &amp; AI Security Engineer exam
+        domains,
+        AI security, Sentinel, KQL, Entra Agent ID, exam traps + free PDF.Prepare for the Microsoft
+        SC-500 Cloud and AI Security Engineer exam with a
+        structured 2026 study guide covering the certification scope, security domains, transition
+        from AZ-500, preparation strategy, and a companion free PDF.</video:description>
       <video:player_loc>https://www.youtube.com/embed/U1PO4LzPNfE</video:player_loc>
     </video:video>
   </url>
@@ -1183,8 +1260,11 @@
     <loc>https://koushikmaji.com/videos/exam-study-guides/ai-200-exam-study-guide-2026.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/GUrpAIbFk48/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI-200 Exam Study Guide 2026 : Azure AI Cloud Developer Associate : AZ-204 Transition Plan</video:title>
-      <video:description>Prepare for the Microsoft AI-200 Azure AI Cloud Developer Associate exam with a 2026 study guide covering the certification direction, key Azure AI development skills, exam preparation priorities, and transition planning from AZ-204.</video:description>
+      <video:title>AI-200 Exam Study Guide 2026 : Azure AI Cloud Developer Associate : AZ-204 Transition
+        Plan</video:title>
+      <video:description>Prepare for the Microsoft AI-200 Azure AI Cloud Developer Associate exam with a
+        2026 study guide covering the certification direction, key Azure AI development skills, exam
+        preparation priorities, and transition planning from AZ-204.</video:description>
       <video:player_loc>https://www.youtube.com/embed/GUrpAIbFk48</video:player_loc>
     </video:video>
   </url>
@@ -1193,7 +1273,9 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/RpmaLICHBf8/hqdefault.jpg</video:thumbnail_loc>
       <video:title>GH-600 Exam Study Guide 2026 : GitHub Certified: Agentic AI Developer Full Prep</video:title>
-      <video:description>Prepare for the GitHub Certified Agentic AI Developer GH-600 exam with a structured 2026 study guide covering agentic AI development concepts, GitHub-focused skills, exam preparation priorities, and a companion free PDF.</video:description>
+      <video:description>Prepare for the GitHub Certified Agentic AI Developer GH-600 exam with a
+        structured 2026 study guide covering agentic AI development concepts, GitHub-focused skills,
+        exam preparation priorities, and a companion free PDF.</video:description>
       <video:player_loc>https://www.youtube.com/embed/RpmaLICHBf8</video:player_loc>
     </video:video>
   </url>
@@ -1201,8 +1283,11 @@
     <loc>https://koushikmaji.com/videos/exam-study-guides/claude-certified-architect-foundations-exam-ccar-f-full-study-guide-2026.html</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/dtmEJz6nHM0/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Claude Certified Architect Foundations Exam (CCAR-F) – Full Study Guide 2026 : 8 Meta Rules to Pass</video:title>
-      <video:description>Prepare for the Claude Certified Architect Foundations (CCAR-F) exam with a structured 2026 study guide covering core architecture concepts, preparation strategy, and eight high-level rules for approaching the certification exam.</video:description>
+      <video:title>Claude Certified Architect Foundations Exam (CCAR-F) – Full Study Guide 2026 : 8 Meta
+        Rules to Pass</video:title>
+      <video:description>Prepare for the Claude Certified Architect Foundations (CCAR-F) exam with a
+        structured 2026 study guide covering core architecture concepts, preparation strategy, and
+        eight high-level rules for approaching the certification exam.</video:description>
       <video:player_loc>https://www.youtube.com/embed/dtmEJz6nHM0</video:player_loc>
     </video:video>
   </url>
