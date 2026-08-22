@@ -223,7 +223,68 @@
         "Applications and data",
         "Governance and risk"
       ]
-    }
+    },
+	{
+	  "enabled": true,
+	  "slug": "sc-500",
+	  "exam_code": "SC-500",
+	  "exam_name": "Microsoft Cloud and AI Security Engineer",
+	  "provider": "Microsoft",
+	  "video_file": "video_data/sc-500/video.txt",
+	  "video_title_template": "SC-500 Exam Questions & Answers 2026 — Set {set_no:02d}",
+	  "video_description_template": "Practice SC-500 questions {start}–{end}. This standalone set contains {count} independently created certification practice questions.",
+	  "topics": [
+		"Cloud security",
+		"Identity and access",
+		"AI security",
+		"Security operations",
+		"Governance"
+	  ]
+	},
+	{
+	  "enabled": true,
+	  "slug": "ai-103",
+	  "exam_code": "AI-103",
+	  "exam_name": "Microsoft Azure AI App and Agent Developer Associate",
+	  "provider": "Microsoft",
+	  "video_file": "video_data/ai-103/video.txt",
+	  "video_title_template": "AI-103 Exam Questions & Answers 2026 — Set {set_no:02d}",
+	  "video_description_template": "Practice AI-103 questions {start}–{end}. This standalone set contains {count} independently created practice questions for the Microsoft Azure AI App and Agent Developer Associate exam.",
+	  "topics": [
+		"Azure AI Foundry",
+		"Generative AI applications",
+		"Azure OpenAI",
+		"Retrieval-Augmented Generation (RAG)",
+		"AI agents",
+		"Prompt engineering",
+		"Responsible AI",
+		"Content safety",
+		"AI application integration",
+		"Monitoring and evaluation"
+	  ]
+	},
+	{
+	  "enabled": true,
+	  "slug": "dop-c02",
+	  "exam_code": "DOP-C02",
+	  "exam_name": "AWS Certified DevOps Engineer - Professional",
+	  "provider": "AWS",
+	  "video_file": "video_data/dop-c02/video.txt",
+	  "video_title_template": "DOP-C02 Exam Questions & Answers 2026 — Set {set_no:02d}",
+	  "video_description_template": "Practice DOP-C02 questions {start}–{end}. This standalone set contains {count} independently created practice questions for the AWS Certified DevOps Engineer - Professional exam.",
+	  "topics": [
+		"Software Development Lifecycle Automation",
+		"Configuration Management and Infrastructure as Code",
+		"Resilient Cloud Solutions",
+		"Monitoring and Logging",
+		"Incident and Event Response",
+		"Security and Compliance",
+		"CI/CD Pipelines",
+		"AWS Systems Manager",
+		"AWS CloudFormation",
+		"Amazon CloudWatch"
+	  ]
+	}
   ],
   "general_video_file": "general-video.xml"
 }
