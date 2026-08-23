@@ -284,6 +284,31 @@
 		"AWS CloudFormation",
 		"Amazon CloudWatch"
 	  ]
+	},
+	{
+	  "enabled": true,
+	  "slug": "ab-100",
+	  "exam_code": "AB-100",
+	  "exam_name": "Microsoft Agentic AI Business Solutions Architect",
+	  "provider": "Microsoft",
+	  "video_file": "video_data/ab-100/video.txt",
+	  "video_title_template": "AB-100 Exam Questions & Answers 2026 — Set {set_no:02d}",
+	  "video_description_template": "Practice AB-100 questions {start}–{end}. This standalone set contains {count} independently created practice questions for the Microsoft Agentic AI Business Solutions Architect exam, covering agentic AI solution design, Copilot Studio, Azure AI Foundry, business application integration, governance, security, and deployment.",
+	  "topics": [
+		"Agentic AI solution architecture",
+		"Microsoft Copilot Studio",
+		"Azure AI Foundry",
+		"Generative AI solutions",
+		"AI agents and multi-agent orchestration",
+		"Microsoft Power Platform integration",
+		"Dynamics 365 integration",
+		"Business process automation",
+		"Data and knowledge grounding",
+		"Security and identity",
+		"Responsible AI and governance",
+		"Monitoring and evaluation",
+		"Deployment and lifecycle management"
+	  ]
 	}
   ],
   "general_video_file": "general-video.xml"
