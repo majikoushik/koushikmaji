@@ -17,9 +17,10 @@ import shutil
 import sys
 from dataclasses import dataclass
 from datetime import date
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, unquote, urlparse, urlsplit
 import xml.etree.ElementTree as ET
 
 
@@ -271,11 +272,17 @@ def page_head(title: str, description: str, canonical: str, ld: dict[str, Any], 
 def nav(prefix: str) -> str:
     return f'''  <header class="topbar">
     <div class="container nav">
-      <a class="brand" href="{prefix}">TechWith<span>Koushik</span></a>
+      <a class="brand" href="{prefix}index.html">TechWith<span>Koushik</span></a>
       <nav class="navlinks" aria-label="Main navigation">
+        <a href="{prefix}index.html">Home</a>
         <a href="{prefix}videos/ai-machine-learning/">AI &amp; Machine Learning</a>
         <a href="{prefix}cloud-certification-exam-guides.html">Exam Practice</a>
         <a href="{prefix}videos/exam-study-guides/">Study Guides</a>
+        <a href="{prefix}ai-cloud-engineer-guide.html">AI Cloud</a>
+        <a href="{prefix}ai-security-cheat-sheet.html">AI Security</a>
+        <a href="{prefix}ai-cost-optimization-guide.html">AI Cost</a>
+        <a href="{prefix}mcp-agentic-ai-guide.html">MCP</a>
+        <a href="{prefix}ai-certifications-roadmap.html">Certifications</a>
         <a href="{prefix}youtube-resources.html">Resources</a>
       </nav>
     </div>
@@ -696,6 +703,61 @@ def validate_series_config(s: dict[str, Any]) -> None:
         raise ValueError(f"Invalid slug: {s['slug']}")
 
 
+class InternalLinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: list[tuple[int, str]] = []
+        self.ids: set[str] = set()
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = dict(attrs)
+        element_id = values.get("id")
+        if element_id:
+            self.ids.add(element_id)
+        if tag == "a" and values.get("href") is not None:
+            self.links.append((self.getpos()[0], values["href"] or ""))
+
+
+def validate_internal_links() -> None:
+    """Fail generation when an internal href or fragment target is invalid."""
+    pages: dict[Path, InternalLinkParser] = {}
+    for page in sorted(ROOT.rglob("*.html")):
+        parser = InternalLinkParser()
+        parser.feed(page.read_text(encoding="utf-8", errors="replace"))
+        pages[page.resolve()] = parser
+
+    errors: list[str] = []
+    for page, parser in pages.items():
+        for line, href in parser.links:
+            parts = urlsplit(href)
+            if parts.scheme or href.startswith("//") or href.startswith(("mailto:", "tel:", "javascript:")):
+                continue
+
+            path = unquote(parts.path)
+            if not path:
+                target = page
+            elif path.startswith("/"):
+                target = ROOT / path.lstrip("/")
+            else:
+                target = page.parent / path
+            if path.endswith("/") or (target.exists() and target.is_dir()):
+                target /= "index.html"
+            target = target.resolve()
+
+            relative_page = page.relative_to(ROOT)
+            if not target.exists():
+                errors.append(f"{relative_page}:{line}: {href} points to a missing target")
+                continue
+            if parts.fragment and target in pages and unquote(parts.fragment) not in pages[target].ids:
+                errors.append(f"{relative_page}:{line}: {href} points to a missing fragment")
+
+    if errors:
+        details = "\n".join(f"  - {error}" for error in errors[:25])
+        remainder = f"\n  - ...and {len(errors) - 25} more" if len(errors) > 25 else ""
+        raise RuntimeError(f"Internal link validation failed:\n{details}{remainder}")
+    print(f"Validated internal links across {len(pages)} HTML pages.")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate TechWithKoushik exam-practice, AI/ML, study-guide pages and sitemaps.")
     parser.add_argument("--config", type=Path, default=CONFIG_PATH)
@@ -751,6 +813,7 @@ def main() -> int:
     write_video_sitemap(site, enabled, general_sections)
     total_watch = sum(len(v) for _, v in enabled) + sum(len(v) for v in general_sections.values())
     print(f"Generated sitemap.xml and video-sitemap.xml for {total_watch} watch pages.")
+    validate_internal_links()
     return 0
 
 
