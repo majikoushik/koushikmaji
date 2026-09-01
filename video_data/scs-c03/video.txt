@@ -1,0 +1,11 @@
+01_youtube_video.mp4 | 001_382888.png, 027_382914_A.png | https://www.youtube.com/watch?v=Yzc8q6gfMbA
+02_youtube_video.mp4 | 028_382915.png, 055_382942_A.png | https://www.youtube.com/watch?v=N4MQMLAn9Sg
+03_youtube_video.mp4 | 056_382943.png, 082_409753_A.png | https://www.youtube.com/watch?v=rvQ94f0Ok8Q
+04_youtube_video.mp4 | 083_409754.png, 111_00027_A.png | https://www.youtube.com/watch?v=fW7xh2ZYkyE
+05_youtube_video.mp4 | 112_00028.png, 139_00055_A.png | https://www.youtube.com/watch?v=UvEFBwvmHbY
+06_youtube_video.mp4 | 140_00056.png, 170_00086_A.png | https://www.youtube.com/watch?v=m7YD0mcrAZo
+07_youtube_video.mp4 | 171_00087.png, 204_00020_A.png | https://www.youtube.com/watch?v=McBwBRZ-hd8
+08_youtube_video.mp4 | 205_00021.png, 236_00052_A.png | https://www.youtube.com/watch?v=GkuvLZKWDs0
+09_youtube_video.mp4 | 237_00053.png, 266_00082_A.png | https://www.youtube.com/watch?v=X3qpcRkJ6PY
+10_youtube_video.mp4 | 267_00083.png, 290_00106_A.png | https://www.youtube.com/watch?v=cf_FriLewJE
+11_youtube_video.mp4 | 291_00107.png, 300_00116_A.png | https://www.youtube.com/watch?v=XG6EQ2l4TOc
