@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <general-videos version="1.0">
-  <section slug="ai-machine-learning" title="AI &amp; Machine Learning Videos">
+  <section slug="ai-machine-learning" title="Artificial Intelligence Explained | AI Tools, Careers &amp; Tutorials">
     <video>
       <title>Vector Database Explained : How Tokens, Embeddings, Semantic Search, Cosine Similarity
         &amp; RAG Work</title>
@@ -14,7 +14,7 @@
     <video>
       <title>RAG Explained 2026 | Retrieval-Augmented Generation, AI Hallucinations, Semantic Search
         &amp; Vector DB
-</title>
+      </title>
       <url>https://www.youtube.com/watch?v=gC3fYsvbve4</url>
       <description>Why does AI hallucinate? Learn how RAG uses retrieval, semantic search and vector
         databases to ground LLM answers in current, verifiable information.
@@ -46,7 +46,7 @@
     <video>
       <title>Why Your RAG Fails in 2026 | Hybrid Search, Reranking, Agentic RAG, RAGAS &amp; Context
         Engineering
-</title>
+      </title>
       <url>https://www.youtube.com/watch?v=DI9zWJV-oVQ</url>
       <description>Why does RAG fail in production? Learn hybrid search, reranking, agentic RAG,
         RAGAS, chunking and context engineering to fix retrieval and hallucinations.
@@ -108,7 +108,7 @@
     <video>
       <title>Will AI Replace Cloud Engineers? Future of Cloud Engineering 2026 | AI Agents, MCP,
         AIOps &amp; FinOps
-</title>
+      </title>
       <url>https://www.youtube.com/watch?v=5NKzL597bNM</url>
       <description>Will AI replace cloud engineers in 2026? Learn how AI agents, MCP, AIOps, FinOps,
         Terraform and autonomous cloud operations are changing cloud careers.
@@ -127,9 +127,25 @@
         employability rather than relying on credentials alone.</description>
     </video>
     <video>
+      <title>AI Hallucinations Explained: Why ChatGPT Makes Things Up
+      </title>
+      <url>https://www.youtube.com/watch?v=FHeX1wa-BxI</url>
+      <description>AI hallucinations explained: Why do ChatGPT and other LLMs confidently make
+        things up? Learn why AI hallucinates, when to verify it, and how to reduce the risk.</description>
+    </video>
+    <video>
+      <title>Context Engineering Explained: How AI Agents Manage Context
+      </title>
+      <url>https://www.youtube.com/watch?v=O88CZBlsHFc</url>
+      <description>In this beginner-friendly technical explainer, we break down how context
+        engineering works and show how it connects many of the AI concepts you may already have
+        heard about—including context windows, RAG, vector databases, AI memory, MCP, tools, and AI
+        agents.</description>
+    </video>
+    <video>
       <title>AI Agent Engineer Roadmap 2026 | AI Agents, MCP, Agentic AI, LangGraph, CrewAI, Skills
         &amp; Projects
-</title>
+      </title>
       <url>https://www.youtube.com/watch?v=mjgXAzmffF0</url>
       <description>AI Agent Engineer roadmap 2026: learn AI Agents, MCP, Agentic AI, LangGraph,
         CrewAI, RAG, tool calling, projects, certifications and a 90-day plan.
@@ -137,12 +153,30 @@
         orchestration, RAG, security, projects, cloud platforms, and certifications for building
         production agentic AI systems.</description>
     </video>
+    <video>
+      <title>
+        AI Agents Explained: 6 Ways They Can Work for You
+      </title>
+      <url>https://www.youtube.com/watch?v=IyoMkxPs-eI</url>
+      <description>AI agents explained: Meet 6 invisible AI teammates for email, research, meetings,
+        data, scheduling and reports—practical automation for smarter work.In this video, you'll
+        learn how AI agents are moving beyond simply answering questions and beginning to take steps
+        toward real goals — researching information, organizing email, analyzing data, scheduling
+        work, preparing reports, and more.</description>
+    </video>
 	<video>
       <title>
-AI Agents Explained: 6 Ways They Can Work for You
-</title>
-      <url>https://www.youtube.com/watch?v=IyoMkxPs-eI</url>
-      <description>AI agents explained: Meet 6 invisible AI teammates for email, research, meetings, data, scheduling and reports—practical automation for smarter work.In this video, you'll learn how AI agents are moving beyond simply answering questions and beginning to take steps toward real goals — researching information, organizing email, analyzing data, scheduling work, preparing reports, and more.</description>
+        Why AI Works in Testing but Fails in Production
+      </title>
+      <url>https://www.youtube.com/watch?v=uN85c79wJkM</url>
+      <description>Why do AI systems work perfectly in testing — then fail after deployment?An AI pilot can achieve impressive accuracy, pass every validation test, and look ready for production. But AI production is a completely different environment: messy real-world data, changing conditions, unexpected users, edge cases, workflow problems, weak monitoring, and decisions that suddenly have real consequences.</description>
+    </video>
+	<video>
+      <title>
+        Will AI Take Your Job? Why AI Skills Pay 62% More
+      </title>
+      <url>https://www.youtube.com/watch?v=qLZiHsEPIYs</url>
+      <description>AI jobs are changing fast in 2026. Learn why AI skills carry a 62% wage premium, which work is being automated, and how to future-proof your career.Will AI take your job — or make your skills more valuable?The real future-of-work story is more complicated than either “AI will replace everyone” or “nothing will change.”</description>
     </video>
   </section>
   <section slug="exam-study-guides" title="Certification Study Guide Videos">
@@ -157,7 +191,12 @@ AI Agents Explained: 6 Ways They Can Work for You
         priorities, and a companion free PDF resource.</description>
     </video>
     <video>
-      <title>SC-500 Study Guide 2026 | Cloud &amp; AI Security Engineer | AZ-500 Replacement, AI
+      <title>AWS SCS-C03 Final Review in 20 Minutes | Last-Minute Exam Prep &amp; Key Differences</title>
+      <url>https://www.youtube.com/watch?v=PgxoQu5Oi1sE</url>
+      <description>AWS SCS-C03 Final Review in 20 Minutes for the AWS Certified Security Specialty exam. Review key concepts, service differences, exam traps, and last-minute tips.Preparing for the AWS Certified Security – Specialty SCS-C03 exam? This focused final review is designed for candidates who have already studied the syllabus and want a fast, high-value revision before the exam.</description>
+    </video>
+	<video>
+	<title>SC-500 Study Guide 2026 | Cloud &amp; AI Security Engineer | AZ-500 Replacement, AI
         Security + Free PDF</title>
       <url>https://www.youtube.com/watch?v=U1PO4LzPNfE</url>
       <description>Prepare for SC-500 in 2026: Microsoft Cloud &amp; AI Security Engineer exam
@@ -190,5 +229,12 @@ AI Agents Explained: 6 Ways They Can Work for You
         structured 2026 study guide covering core architecture concepts, preparation strategy, and
         eight high-level rules for approaching the certification exam.</description>
     </video>
+  </section>
+  <section slug="cybersecurity" title="Cybersecurity Explained | Careers, Skills &amp; Certifications">
+  <video>
+      <title>Is Cybersecurity Still Worth It in 2026? Jobs, Salary, AI &amp; the Reality for Beginners</title>
+      <url>https://www.youtube.com/watch?v=vPrjYPrvtCA</url>
+      <description>What is cybersecurity, and how do you start a cybersecurity career in 2026? This beginner-friendly guide explains cybersecurity from the ground up—including cybersecurity jobs, career paths, salaries, certifications, AI, SOC analyst roles, ethical hacking, cloud security, GRC, and the realistic path to getting your first cybersecurity job.</description>
+    </video>    
   </section>
 </general-videos>

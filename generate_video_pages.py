@@ -172,10 +172,11 @@ def parse_general_video_file(path: Path) -> dict[str, list[GeneralVideo]]:
         </section>
       </general-videos>
     """
-    allowed_sections = {"ai-machine-learning", "exam-study-guides"}
+    allowed_sections = {"ai-machine-learning", "exam-study-guides", "cybersecurity",}
     sections: dict[str, list[GeneralVideo]] = {
         "ai-machine-learning": [],
         "exam-study-guides": [],
+        "cybersecurity": [],
     }
     seen_slugs: set[str] = set()
 
